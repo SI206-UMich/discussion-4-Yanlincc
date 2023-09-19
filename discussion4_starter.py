@@ -41,6 +41,8 @@ class Rectangle():
     # Otherwise, it returns the area of the rectangle.
 
     # YOUR CODE HERE
+    def area(self):
+        return self.h * self.w / 2
 
 
 
