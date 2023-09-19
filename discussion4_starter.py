@@ -6,6 +6,9 @@ class Rectangle():
     # It sets an instance variable, "height" to the passed argument, height
 
     # YOUR CODE HERE
+    def __init__(self, width, height):
+        self.w = width
+        self.h = height
 
 
 
