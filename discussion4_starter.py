@@ -30,6 +30,8 @@ class Rectangle():
     #       False otherwise
 
     # YOUR CODE HERE
+    def verify_input(self):
+        return self.h > 0 and self.w > 0
 
 
 
